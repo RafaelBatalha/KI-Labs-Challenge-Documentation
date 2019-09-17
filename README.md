@@ -60,7 +60,7 @@ Create a profile for either a candidate or interviewer.
 * 422 **_Unprocessable Entity_**, when the provided dates either do not start at 0 minutes and 0 seconds or are before the current date and time, with the error response in **_Problem+JSON_**:
 ```json
 {
-    "type": "https://alexandreruivo.github.io/Silencer/#invalidparameter",
+    "type": "https://rafaelbatalha.github.io/KI-Labs-Challenge-Documentation/#invalidparameter",
     "title": "Invalid Parameter",
     "detail": "The provided dates must start at 0 minutes and 0 seconds.",
     "status": 422
@@ -69,7 +69,7 @@ Create a profile for either a candidate or interviewer.
 * 400 **_Bad Request_**, when the body is either wrongly formed or missing, with the error response in **_Problem+JSON_**:
 ```json
 {
-    "type": "https://alexandreruivo.github.io/Silencer/#requestbodywrongormissingexception",
+    "type": "https://rafaelbatalha.github.io/KI-Labs-Challenge-Documentation/#requestbodywrongormissingexception",
     "title": "Request Body Wrong Or Missing",
     "detail": "Impossible to proceed with the request because body wrongly formed or missing.",
     "status": 400
@@ -115,7 +115,7 @@ Replaces the current available hours stored in the database.
 * 422 **_Unprocessable Entity_**, when the provided dates either do not start at 0 minutes and 0 seconds or are before the current date and time, with the error response in **_Problem+JSON_**:
 ```json
 {
-    "type": "https://alexandreruivo.github.io/Silencer/#invalidparameter",
+    "type": "https://rafaelbatalha.github.io/KI-Labs-Challenge-Documentation/#invalidparameter",
     "title": "Invalid Parameter",
     "detail": "The provided dates must start at 0 minutes and 0 seconds.",
     "status": 422
@@ -125,7 +125,7 @@ Replaces the current available hours stored in the database.
 * 404 **_Not Found_**, when the candidate / interviewer you are looking for does not exist, with the error response in **_Problem+JSON_**:
 ```json
 {
-    "type": "https://alexandreruivo.github.io/Silencer/#entitynotfoundexception",
+    "type": "https://rafaelbatalha.github.io/KI-Labs-Challenge-Documentation/#entitynotfoundexception",
     "title": "Entity Not Found",
     "detail": "The entity you are looking for does not exist.",
     "status": 404
@@ -135,7 +135,7 @@ Replaces the current available hours stored in the database.
 * 400 **_Bad Request_**, when the body is either wrongly formed or missing, with the error response in **_Problem+JSON_**:
 ```json
 {
-    "type": "https://alexandreruivo.github.io/Silencer/#requestbodywrongormissingexception",
+    "type": "https://rafaelbatalha.github.io/KI-Labs-Challenge-Documentation/#requestbodywrongormissingexception",
     "title": "Request Body Wrong Or Missing",
     "detail": "Impossible to proceed with the request because body wrongly formed or missing.",
     "status": 400
@@ -174,7 +174,7 @@ Get the candidate / interviewer by id.
 * 404 **_Not Found_**, when the candidate / interviewer you are looking for does not exist, with the error response in **_Problem+JSON_**:
 ```json
 {
-    "type": "https://alexandreruivo.github.io/Silencer/#entitynotfoundexception",
+    "type": "https://rafaelbatalha.github.io/KI-Labs-Challenge-Documentation/#entitynotfoundexception",
     "title": "Entity Not Found",
     "detail": "The entity you are looking for does not exist.",
     "status": 404
@@ -222,7 +222,7 @@ Delete a candidate / interviewer profile.
  * 404 **_Not Found_**, when the candidate / interviewer you are looking for does not exist, with the error response in **_Problem+JSON_**:
 ```json
 {
-    "type": "https://alexandreruivo.github.io/Silencer/#entitynotfoundexception",
+    "type": "https://rafaelbatalha.github.io/KI-Labs-Challenge-Documentation/#entitynotfoundexception",
     "title": "Entity Not Found",
     "detail": "The entity you are looking for does not exist.",
     "status": 404
@@ -265,7 +265,7 @@ Delete a candidate / interviewer profile.
  * 404 **_Not Found_**, when the candidate / interviewers you are looking for does not exist, with the error response in **_Problem+JSON_**:
 ```json
 {
-    "type": "https://alexandreruivo.github.io/Silencer/#entitynotfoundexception",
+    "type": "https://rafaelbatalha.github.io/KI-Labs-Challenge-Documentation/#entitynotfoundexception",
     "title": "Entity Not Found",
     "detail": "The entity you are looking for does not exist.",
     "status": 404
@@ -280,7 +280,7 @@ Delete a candidate / interviewer profile.
 When the provided dates either do not start at 0 minutes and 0 seconds or are before the current date and time.
 ```json
 {
-    "type": "https://alexandreruivo.github.io/Silencer/#invalidparameterexception",
+    "type": "https://rafaelbatalha.github.io/KI-Labs-Challenge-Documentation/#invalidparameterexception",
     "title": "Invalid Parameter",
     "detail": "The provided dates must start at 0 minutes and 0 seconds.",
     "status": 422
@@ -293,7 +293,7 @@ When the body is either wrongly formed or missing.
 
 ```json
 {
-    "type": "https://alexandreruivo.github.io/Silencer/#bodywrongormissingexception",
+    "type": "https://rafaelbatalha.github.io/KI-Labs-Challenge-Documentation/#bodywrongormissingexception",
     "title": "Request Body Wrong Or Missing",
     "detail": "Impossible to proceed with the request because body wrongly formed or missing.",
     "status": 400
@@ -306,7 +306,7 @@ When the entity does not exist.
 
 ```json
 {
-    "type": "https://alexandreruivo.github.io/Silencer/#entitynotfoundexception",
+    "type": "https://rafaelbatalha.github.io/KI-Labs-Challenge-Documentation/#entitynotfoundexception",
     "title": "Entity Not Found",
     "detail": "The entity you are looking for does not exist.",
     "status": 404
