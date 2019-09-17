@@ -250,10 +250,19 @@ Delete a candidate / interviewer profile.
  * 200 **OK**, with the response in **_JSON_**
 ```json
 {
-    "candidateName": "Carl",
-    "interviewersNames": [
-        "Inês",
-        "Ingrid"
+    "candidate": {
+        "id": 1,
+        "name": "Carl"
+    },
+    "interviewers": [
+        {
+            "id": 1,
+            "name": "Inês"
+        },
+        {
+            "id": 2,
+            "name": "Ingrid"
+        }
     ],
     "availableHours": [
         "2019-09-17 09:00",
